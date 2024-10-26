@@ -1,0 +1,28 @@
+<div class="container-fluid mt-5" style="width: 1000px">
+  <div class="card">
+    <form  [formGroup]="Taskform"   class="p-3" (ngSubmit)="onsubmit()">
+      <div class="mb-3">
+        <label for="taskTitle" class="form-label">Title</label>
+        <input type="text"class="form-control" id="taskTitle" formControlName="Title"   placeholder="Enter task title"/>
+      </div>
+      <div class="mb-3">
+        <label for="taskDescription" class="form-label">Description</label>
+        <textarea class="form-control"id="taskDescription"rows="3"  formControlName="description"placeholder="Enter task description"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="dueDate" class="form-label">Due Date</label>
+        <input type="date"class="form-control" formControlName="duedate" id="dueDate"value="2024-10-19"/>
+      </div>
+      <div class="mb-3">
+        <label for="priority" class="form-label">Priority</label>
+        <select class="form-select" id="priority" formControlName="priority">
+          <option selected value="Medium">Medium</option>
+          <option value="low">Low</option>
+          <option value="High">High</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary me-2" [disabled]="Taskform.invalid">Submit</button>
+      <button type="button" class="btn btn-secondary" (click)="cancel()">Cancel</button>
+    </form>
+  </div>
+</div>

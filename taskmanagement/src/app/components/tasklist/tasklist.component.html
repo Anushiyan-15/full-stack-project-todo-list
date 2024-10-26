@@ -1,0 +1,38 @@
+<div class="container-fluid" style="margin-top: 50px; width: 1500px">
+  <div class="d-flex justify-content-between mb-4">
+    <input type="text" placeholder="Search Task......" [(ngModel)]="searchText">
+    <button class="btn btn-dark" routerLink="/addform"><i class="bi bi-plus-lg"></i> NewTask</button>
+  </div>
+
+  <div class="card">
+    <table class="table">
+      <thead>
+        <tr class="table-dark">
+          <th>Id</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Due Date</th>
+          <th>Priority</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let task of tasks | filtertask:searchText" class="table-info">
+          <td>{{ task.id }}</td>
+          <td>{{ task.title }}</td>
+          <td>{{ task.description }}</td>
+          <td>{{ task.dueDate | date}}</td>
+          <td>{{ task.priority }}</td>
+          <td>
+            <button class="btn btn-sm bg-info me-2" (click)="onedit(task.id)">
+              <i class="bi bi-pencil-square bg-info"></i>
+            </button>
+            <button class="btn btn-sm bg-danger" (click)="delete(task.id)">
+              <i class="bi bi-trash"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

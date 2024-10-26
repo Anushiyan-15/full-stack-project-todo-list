@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Migrations\\20241026112626_changesome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagerApi\\Migrations\\20241026112626_changesome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\data\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\data\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\migrations\\20241026031430_same.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\migrations\\20241026031430_same.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\taskmanagerapi\\taskmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241026112626_changesome.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Migrations\\20241026112626_changesome.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Migrations\\20241026112626_changesome.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Migrations\\20241026112626_changesome.cs",
+              "RelativeToolTip": "TaskManagerApi\\Migrations\\20241026112626_changesome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T11:26:26.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Address.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Models\\Address.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\Address.cs",
+              "RelativeToolTip": "TaskManagerApi\\Models\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:55:58.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\UsersController.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TaskManagerApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T06:56:56.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskContext.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Data\\TaskContext.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Data\\TaskContext.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Data\\TaskContext.cs",
+              "RelativeToolTip": "TaskManagerApi\\Data\\TaskContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T06:55:40.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Models\\User.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
+              "RelativeToolTip": "TaskManagerApi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:08:31.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241026031430_same.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Migrations\\20241026031430_same.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Migrations\\20241026031430_same.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Migrations\\20241026031430_same.cs",
+              "RelativeToolTip": "TaskManagerApi\\Migrations\\20241026031430_same.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:14:30.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Models\\TaskItem.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TaskManagerApi\\Models\\TaskItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:01:04.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Controllers\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\TaskItemsController.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Controllers\\TaskItemsController.cs",
+              "RelativeToolTip": "TaskManagerApi\\Controllers\\TaskItemsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:00:05.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Program.cs",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "RelativeToolTip": "TaskManagerApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:46:19.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagerApi\\appsettings.json",
+              "ToolTip": "X:\\UT01210\\Activity-40(2024.10.19)\\api-calling-and-get-datafromdatabase\\TaskManagerApi\\TaskManagerApi\\appsettings.json",
+              "RelativeToolTip": "TaskManagerApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T07:44:18.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
