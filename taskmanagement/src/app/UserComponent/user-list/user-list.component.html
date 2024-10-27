@@ -4,7 +4,7 @@
   
         <div class="d-flex justify-content-between mb-3">
           <div class="p-2">
-            <input type="text" class="form-control" [(ngModel)]="searchText" placeholder="Search User....">
+            <input type="text" class="form-control" [(ngModel)]="searchuser" placeholder="Search User....">
           </div>
           <div class="ml-auto p-2">
             <button type="button" class="btn btn-dark" [routerLink]="['/useradd']">New User</button>
@@ -24,7 +24,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let user of User">
+            <tr *ngFor="let user of User | filteruser:searchuser">
               <th scope="row">{{user.id}}</th>
               <td>{{user.name}}</td>
               <td>{{user.email}}</td>

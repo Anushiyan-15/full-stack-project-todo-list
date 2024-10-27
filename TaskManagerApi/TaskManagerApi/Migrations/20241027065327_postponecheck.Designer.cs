@@ -12,8 +12,8 @@ using TaskManagerApi.Data;
 namespace TaskManagerApi.Migrations
 {
     [DbContext(typeof(TaskContext))]
-    [Migration("20241026104732_chnagerequired")]
-    partial class chnagerequired
+    [Migration("20241027065327_postponecheck")]
+    partial class postponecheck
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,6 +25,38 @@ namespace TaskManagerApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TaskManagerApi.Models.Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("addressline1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("addressline2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("city")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique()
+                        .HasFilter("[UserId] IS NOT NULL");
+
+                    b.ToTable("Address");
+                });
+
             modelBuilder.Entity("TaskManagerApi.Models.TaskItem", b =>
                 {
                     b.Property<int>("Id")
@@ -32,6 +64,9 @@ namespace TaskManagerApi.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("AssigneeId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -49,6 +84,8 @@ namespace TaskManagerApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AssigneeId");
 
                     b.ToTable("Tasks");
                 });
@@ -80,6 +117,33 @@ namespace TaskManagerApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("TaskManagerApi.Models.Address", b =>
+                {
+                    b.HasOne("TaskManagerApi.Models.User", "User")
+                        .WithOne("Address")
+                        .HasForeignKey("TaskManagerApi.Models.Address", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TaskManagerApi.Models.TaskItem", b =>
+                {
+                    b.HasOne("TaskManagerApi.Models.User", "Assignee")
+                        .WithMany("Tasks")
+                        .HasForeignKey("AssigneeId");
+
+                    b.Navigation("Assignee");
+                });
+
+            modelBuilder.Entity("TaskManagerApi.Models.User", b =>
+                {
+                    b.Navigation("Address")
+                        .IsRequired();
+
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

@@ -8,8 +8,9 @@ import { Router } from '@angular/router';
   styleUrl: './user-list.component.css',
 })
 export class UserListComponent implements OnInit {
-  searchText: any;
+  
   User: User[] = [];
+  searchuser:string='';
 
   constructor(private UserService: UserService, private router: Router) {}
   ngOnInit(): void {

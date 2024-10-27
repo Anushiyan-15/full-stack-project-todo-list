@@ -5,7 +5,7 @@
 namespace TaskManagerApi.Migrations
 {
     /// <inheritdoc />
-    public partial class same : Migration
+    public partial class taskcontrolchange : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
