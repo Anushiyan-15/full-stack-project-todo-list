@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TaskManagerApi"
+    "\\TaskManagerApi",
+    "\\TaskManagerApi\\Migrations",
+    "\\TaskManagerApi\\Models"
   ],
-  "SelectedNode": "\\TaskManagerApi.sln",
+  "SelectedNode": "\\TaskManagerApi\\Models\\Address.cs",
   "PreviewInSolutionExplorer": false
 }

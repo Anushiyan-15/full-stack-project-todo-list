@@ -13,6 +13,9 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { FiltertaskPipe } from './filtertask.pipe';
 import { UserAddComponent } from './UserComponent/user-add/user-add.component';
 import { UserListComponent } from './UserComponent/user-list/user-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { FilteruserPipe } from './filteruser.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,7 @@ import { UserListComponent } from './UserComponent/user-list/user-list.component
     FiltertaskPipe,
     UserAddComponent,
     UserListComponent,
+    FilteruserPipe,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,10 @@ import { UserListComponent } from './UserComponent/user-list/user-list.component
     RouterOutlet,
     ReactiveFormsModule,
     FormsModule,
-    DatePipe
+    DatePipe,
+    BrowserAnimationsModule,
+    BsDatepickerModule,
+    BrowserAnimationsModule
   
   ],
   providers: [provideHttpClient()],

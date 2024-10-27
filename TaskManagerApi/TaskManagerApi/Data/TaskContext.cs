@@ -11,7 +11,7 @@ namespace TaskManagerApi.Data
 
         public DbSet<TaskItem> Tasks { get; set; } 
         public DbSet<User> Users { get; set; }
-        public DbSet<Address> Address { get; set; }
+        
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -20,9 +20,21 @@ namespace TaskManagerApi.Data
                 modelBuilder.Entity<User>()
                     .HasOne(a => a.Address)
                     .WithOne(a => a.User)
-                    .HasForeignKey<Address>(c => c.UserId);
+                    .HasForeignKey<Address>(c => c.UserId)
+                    .OnDelete(DeleteBehavior.Cascade);
+                 
 
-                    base.OnModelCreating(modelBuilder);
+                modelBuilder.Entity<User>()
+                    .HasMany(o=>o.Tasks)
+                    .WithOne(o=>o.Assignee)
+                    .HasForeignKey(f=>f.AssigneeId);
+
+                modelBuilder.Entity<TaskItem>()
+                    .HasMany(a => a.Checklists)
+                    .WithOne(c => c.Task)
+                    .HasForeignKey(c => c.TaskId);
+
+                base.OnModelCreating(modelBuilder);
             }
         }
     }

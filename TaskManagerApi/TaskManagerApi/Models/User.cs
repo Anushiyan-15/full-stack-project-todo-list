@@ -16,9 +16,9 @@ namespace TaskManagerApi.Models
         
         public string PhoneNumber { get; set; }
 
-        public ICollection<TaskItem> Tasks {  get; set; } = new List<TaskItem>();
+        public ICollection<TaskItem>? Tasks {  get; set; } = new List<TaskItem>();
 
-        public Address Address { get; set; }
+        public Address? Address { get; set; }
         
     }
 }

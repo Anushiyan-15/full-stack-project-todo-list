@@ -11,7 +11,7 @@
       </div>
       <div class="mb-3">
         <label for="dueDate" class="form-label">Due Date</label>
-        <input type="date"class="form-control" formControlName="duedate" id="dueDate"value="2024-10-19"/>
+        <input type="text"class="form-control" bsDatepicker formControlName="duedate" id="dueDate"value="2024-10-19"/>
       </div>
       <div class="mb-3">
         <label for="priority" class="form-label">Priority</label>
@@ -19,6 +19,13 @@
           <option selected value="Medium">Medium</option>
           <option value="low">Low</option>
           <option value="High">High</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="Assignee" class="form-label">Assignee</label>
+        <select class="form-select" id="Assignee" formControlName="assigneeId">
+          <option *ngFor="let user of Users" [value]="user.id">{{user.name}}</option>
         </select>
       </div>
       <button type="submit" class="btn btn-primary me-2" [disabled]="Taskform.invalid">Submit</button>

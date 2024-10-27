@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskserviceService } from '../../taskservice.service';
 import { Router } from '@angular/router';
+import { User } from '../../user.service';
 
 @Component({
   selector: 'app-tasklist',
@@ -11,6 +12,7 @@ export class TasklistComponent implements OnInit{
 
 
     tasks:task[]=[]
+    
     searchText:string='';
   
 
@@ -29,7 +31,8 @@ export class TasklistComponent implements OnInit{
 
 loadinglist(){
   this.taskservice.gettasks().subscribe(data=>{
-    this.tasks=data                                                 
+    this.tasks=data       
+    console.log(this.tasks)                                          
   })
 }
 
@@ -43,10 +46,11 @@ onedit(taskid:number){
 
 
 export interface task{
-  id:number,
-  title:string,
-  description:string,
-  dueDate:string,
-  priority:string
+  id:number;
+  title:string;
+  description:string;
+  dueDate:string;
+  priority:string;
+  assignee?:User
 }
 

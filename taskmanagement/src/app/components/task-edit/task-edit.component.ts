@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TaskserviceService } from '../../taskservice.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { User, UserService } from '../../user.service';
 
 @Component({
   selector: 'app-task-edit',
@@ -12,7 +13,8 @@ export class TaskEditComponent implements OnInit {
   Editform: FormGroup ;
   taskid: number;
 
-  constructor(private Fb: FormBuilder,private taskservice:TaskserviceService, private router:Router,private route:ActivatedRoute){
+
+  constructor(private Fb: FormBuilder,private taskservice:TaskserviceService, private router:Router,private route:ActivatedRoute,private UserService:UserService){
     const id = this.route.snapshot.paramMap.get('id')
     this.taskid = Number(id)
     this.Editform = this.Fb.group({
@@ -25,6 +27,7 @@ export class TaskEditComponent implements OnInit {
 
   }
   ngOnInit(): void {
+    
       this.taskservice.gettask(this.taskid).subscribe(data=>{
         console.log(data)
       this.Editform.patchValue(data);
