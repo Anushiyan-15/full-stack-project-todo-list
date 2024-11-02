@@ -52,5 +52,11 @@ export interface task{
   dueDate:string;
   priority:string;
   assignee?:User
+  checklists?:checklist
 }
 
+export interface checklist{
+  id:number;
+  name:string;
+  isdone:boolean;
+}
