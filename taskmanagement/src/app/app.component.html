@@ -1,8 +1,4 @@
-<!-- 
-<div class="d-felx ">
-    <button class="btn bg-primary m-3" [routerLink]="['/tasks']" style="border: solid 1px; border-radius:7px ;">View Task</button>
-    <button class="btn bg-primary" [routerLink]="['/users']" style="border: solid 1px; border-radius:7px ;">View Users</button>    
-</div> -->
+
 
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid d-flex justify-content-between">
@@ -28,41 +24,6 @@
   </div>
 </nav>
 
-<!-- 
-<main class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="margin-right: 1550px; height: 50%">
-  <a
-    href="/"
-    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
-  >
-    <svg class="bi pe-none me-2" width="40" height="32">
-      <use xlink:href="#bootstrap"></use>
-    </svg>
-    <span class="fs-4">Menu</span>
-  </a>
-  <hr />
-  <ul class="nav nav-pills flex-column mb-auto">
-    <li class="nav-item">
-      <button class="btn" [routerLink]="['/home']" style="color: white">
-        Home
-      </button>
-    </li>
-    <li class="nav-item">
-      <button class="btn" [routerLink]="['/users']" style="color: white">
-        Tasks
-      </button>
-    </li>
-    <li class="nav-item">
-      <button class="btn" [routerLink]="['/users']" style="color: white">
-        Users
-      </button>
-    </li>
-  </ul>
-  <div class="b-example-divider b-example-vr"></div>
-    <div class="container" style="width: 80%;">
-    <router-outlet></router-outlet>
-    </div>
-
-</main> -->
 <main class="d-flex flex-nowrap">
   <h1 class="visually-hidden">Sidebars examples</h1>
 
@@ -93,12 +54,22 @@
         Users
       </button>
     </li>
+    <li class="nav-item">
+      <button class="btn" [routerLink]="['/Register']" style="color: white">
+       Register
+      </button>
+    </li>
+    <li class="nav-item">
+      <button class="btn" [routerLink]="['/login']" style="color: white">
+       Login
+      </button>
+    </li>
   </ul>
 
   </div>
 
   <div class="b-example-divider b-example-vr" style="height: 900px;"></div>
-  <div class="container" style="margin-left: 15px; margin-top: 100px;">
+  <div style="width: 80%;" class="shadow p-4 m-4 bg-white rounded">
     <router-outlet></router-outlet>
-    </div>
+  </div>
   </main>

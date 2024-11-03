@@ -776,3 +776,4 @@ X:\UT01210\Activity-40(full-project taskmanagement)\full-stack-project-todo-list
 X:\UT01210\Activity-40(full-project taskmanagement)\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\TaskManagerApi.pdb
 X:\UT01210\Activity-40(full-project taskmanagement)\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\TaskManagerApi.genruntimeconfig.cache
 X:\UT01210\Activity-40(full-project taskmanagement)\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\ref\TaskManagerApi.dll
+X:\UT01210\Activity-40(full-project taskmanagement)\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\bin\Debug\net8.0\BCrypt.Net-Core.dll
