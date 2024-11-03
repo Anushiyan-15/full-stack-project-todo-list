@@ -31,6 +31,12 @@ export class UserService {
     return this.http.put(this.url + "/" + userid, user);
   }
 
+
+
+  userregister(register:any){
+    return this.http.post("http://localhost:5276/api/Login/Register",register)
+  }
+
 }
 export interface User {
   id: number;

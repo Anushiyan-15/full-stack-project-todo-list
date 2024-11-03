@@ -16,6 +16,9 @@ import { UserListComponent } from './UserComponent/user-list/user-list.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { FilteruserPipe } from './filteruser.pipe';
+import { RegisterComponent } from './authentication/register/register.component';
+import { LoginComponent } from './authentication/login/login.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,10 @@ import { FilteruserPipe } from './filteruser.pipe';
     UserAddComponent,
     UserListComponent,
     FilteruserPipe,
+    RegisterComponent,
+    LoginComponent,
+    
+
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,8 @@ import { FilteruserPipe } from './filteruser.pipe';
     DatePipe,
     BrowserAnimationsModule,
     BsDatepickerModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
   
   ],
   providers: [provideHttpClient()],

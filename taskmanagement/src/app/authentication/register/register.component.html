@@ -1,0 +1,50 @@
+<div class="container" style="margin-left: 150px; margin-top: 100px;">
+    <div class="card" style="width: 900px;">
+        <div class="card-header">
+            <h1>Sign Up</h1>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <form [formGroup]="Registerfrom" class="p-3" (ngSubmit)="onsubmit()">                    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person"></i></span>
+                        <input type="text" class="form-control" formControlName="Fullname"  placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-envelope-at"></i></span>
+                        <input type="text" class="form-control" formControlName="Email"  placeholder="Your Email" aria-label="Email" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-file-lock"></i></span>
+                        <input type="text" class="form-control" formControlName="Password"  placeholder="Your Password" aria-label="password" >
+                    </div>
+                    <!-- <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-file-lock2"></i></span>
+                        <input type="text" class="form-control" placeholder="Repeat Your Password" aria-label="password" >
+                    </div> -->
+                    <div class="mb-3">
+                        <label for="Assignee" class="form-label">Assignee</label>
+                        <select class="form-select" id="Assignee" formControlName="Role">
+                            <option selected>Open this select menu</option>
+                            <option value=0>Admin</option>
+                            <option value=1>Editor</option>
+                            <option value=2>Viewver</option>
+                          <!-- <option *ngFor="let user of " [value]="user.id">{{user.name}}</option> -->
+                        </select>
+                      </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox"class="form-check-input"id="exampleCheck1"/>
+                        <label class="form-check-label" for="exampleCheck1">I agree to all statements in <a>Terms of Service</a></label>
+                    </div>
+                  <button type="submit" class="btn btn-primary m-2 col-11">Register</button><br>
+                </form>
+                  <a class="text-secondary" style="margin-left: 110px;" routerLink="/login"   >I am Already a member</a>
+                </div>
+                <div class="col">
+                    <img src="/2024.11.02 - Lab work - signup-image.jpg" alt="" srcset="" style="height: 280px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
