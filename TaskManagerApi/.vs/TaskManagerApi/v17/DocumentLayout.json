@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\",
+  "WorkspaceRootPath": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\dtos\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\dtos\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\dtos\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|x:\\ut01210\\authenctication\\full-stack-project-todo-list\\taskmanagerapi\\taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEF7AF47-6F27-4C72-9717-2A887723FF08}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Program.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Program.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Program.cs",
               "RelativeToolTip": "TaskManagerApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "User.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Models\\User.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\User.cs",
               "RelativeToolTip": "TaskManagerApi\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,22 +68,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\UserModel.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\UserModel.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Dtos\\UserModel.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\UserModel.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\UserModel.cs",
               "RelativeToolTip": "TaskManagerApi\\Dtos\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T04:30:37.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T04:30:37.296Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Role.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\Role.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\Role.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Dtos\\Role.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\Role.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Dtos\\Role.cs",
               "RelativeToolTip": "TaskManagerApi\\Dtos\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,22 +92,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\LoginController.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Controllers\\LoginController.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Controllers\\LoginController.cs",
               "RelativeToolTip": "TaskManagerApi\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAADkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T04:34:04.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T04:34:04.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserLogin.cs",
-              "DocumentMoniker": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\UserLogin.cs",
+              "DocumentMoniker": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\UserLogin.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Models\\UserLogin.cs",
-              "ToolTip": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\UserLogin.cs",
+              "ToolTip": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\Models\\UserLogin.cs",
               "RelativeToolTip": "TaskManagerApi\\Models\\UserLogin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

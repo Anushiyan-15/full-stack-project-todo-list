@@ -26,7 +26,7 @@ export class UserListComponent implements OnInit {
     }
   }
   onEdit(userid:number) {
-  this.router.navigate(['/useredit/',userid])
+  this.router.navigate(['/admin/useredit/',userid])
   }
 
   loadUser() {
