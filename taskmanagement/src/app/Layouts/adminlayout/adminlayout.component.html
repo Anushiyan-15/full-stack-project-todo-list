@@ -1,0 +1,67 @@
+
+
+
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand d-flex" href="#">
+        <img
+          src="https://th.bing.com/th/id/OIP.3tt7aXi_1jpH9w4swy-J5QHaHa?rs=1&pid=ImgDetMain"
+          alt="Logo"
+          width="60"
+          height="50"
+          class="d-inline-block align-text-top"
+        />
+        <h1>Unicom Tic</h1>
+      </a>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <main class="d-flex flex-nowrap">
+    <h1 class="visually-hidden">Sidebars examples</h1>
+  
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+      <a
+      href="/"
+      class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+    >
+      <svg class="bi pe-none me-2" width="40" height="32">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+      <span class="fs-4">Menu</span>
+    </a>
+    <hr />
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <button class="btn" [routerLink]="['/home']" style="color: white">
+          Home
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn" [routerLink]="['/admin/tasks']" style="color: white">
+          Tasks
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn" [routerLink]="['/admin/users']" style="color: white">
+          Users
+        </button>
+      </li>
+    </ul>
+  
+    </div>
+  
+    <div class="b-example-divider b-example-vr" style="height: 900px;"></div>
+    <div style="width: 80%;" class="shadow p-4 m-4 bg-white rounded">
+      <router-outlet></router-outlet>
+    </div>
+    </main>
+  

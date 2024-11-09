@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
-import { User, UserService } from '../../user.service';
+
 import { Router } from '@angular/router';
-import { task } from '../../components/tasklist/tasklist.component';
+import { UserService } from '../user.service';
+
 
 @Component({
   selector: 'app-register',
@@ -13,6 +14,7 @@ import { task } from '../../components/tasklist/tasklist.component';
 export class RegisterComponent {
 
   Registerfrom:FormGroup
+
 
 constructor(private fb:FormBuilder,private toster:ToastrService,private UserService:UserService,private Router:Router){
   this.Registerfrom=this.fb.group({
@@ -29,8 +31,10 @@ task.Role = parseInt ( this.Registerfrom.value.Role)
 console.log(task.Role)
 this.UserService.userregister(task).subscribe(data=>{
 this.toster.success("Register Complete SuccessFully")
-  this.Router.navigate(['login'])
+  this.Router.navigate(['/admin/tasks'])
 })
 }
-
+backpage() {
+ this.Router.navigate(['/login'])
+  }
 }

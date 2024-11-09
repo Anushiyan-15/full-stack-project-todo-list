@@ -8174,11 +8174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi.csproj",
+      "projectUniqueName": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi.csproj",
       "projectName": "TaskManagerApi",
-      "projectPath": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi.csproj",
+      "projectPath": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi.csproj",
       "packagesPath": "C:\\Users\\ut01210\\.nuget\\packages\\",
-      "outputPath": "X:\\UT01210\\Activity-40(full-project taskmanagement)\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\obj\\",
+      "outputPath": "X:\\UT01210\\authenctication\\full-stack-project-todo-list\\TaskManagerApi\\TaskManagerApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ut01210\\AppData\\Roaming\\NuGet\\NuGet.Config",

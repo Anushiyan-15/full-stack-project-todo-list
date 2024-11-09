@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { User, UserService, address } from '../../user.service';
 import { Router, ActivatedRoute } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-user-add',
@@ -19,7 +20,8 @@ export class UserAddComponent {
     private fb: FormBuilder,
     private Route: ActivatedRoute,
     private UserService: UserService,
-    private Router: Router
+    private Router: Router,
+    private toastr:ToastrService
   ) {
     const uid = this.Route.snapshot.paramMap.get('id');
     this.userId = Number(uid);
@@ -48,8 +50,8 @@ export class UserAddComponent {
       this.UserService.getUser(this.userId).subscribe((res:any) => {
         this.user = res;
         this.userForm.patchValue(res)
-      }, error => {
-        // this.toastr.error("User is not found");
+      }, (error) => {
+         this.toastr.error(error.error);
       });
     }
   }
@@ -65,18 +67,18 @@ export class UserAddComponent {
       user.address.id = this.user?.address?.id
       console.log(this.userId);
       this.UserService.updateUser(user,this.userId).subscribe(data=>{
-        this.Router.navigate(['/users'])
+        this.Router.navigate(['/admin/users'])
       })
     }else{
       this.UserService.createuser(user).subscribe(data=>{
         console.log(user)
         alert("User Create Success Fully")
-        this.Router.navigate(['/users'])
+        this.Router.navigate(['/admin/users'])
       })
     }
   }
   cancel() {
     this.userForm.reset();
-    this.Router.navigate(['/']);
+    this.Router.navigate(['/admin/home']);
   }
 }
