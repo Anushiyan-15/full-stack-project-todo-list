@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TaskManagerApi.Data;
 using TaskManagerApi.Dtos;
 using TaskManagerApi.Models;
@@ -55,7 +56,37 @@ namespace TaskManagerApi.Controllers
         }
 
 
-        //[HttpPost("Login-page")]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(string email, string password)
+        {
+            try
+            {
+
+                var getuser = await _taskContext.UsersLogin.SingleOrDefaultAsync(x => x.Email == email);
+                if (getuser == null)
+                {
+                    return BadRequest("Invalid Email Address");
+                }
+                if (!BCrypt.Net.BCrypt.Verify(password, getuser.PasswordHash))
+                {
+                    return BadRequest("Invalid Password");
+                }
+
+
+                var res = new UserModel
+                {
+                    UserId=getuser.UserId,
+                    FullName=getuser.FullName,
+                    Email=getuser.Email,
+                    Role = getuser.Role,
+                };
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
     }
 }

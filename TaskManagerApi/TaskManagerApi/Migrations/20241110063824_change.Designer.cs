@@ -12,8 +12,8 @@ using TaskManagerApi.Data;
 namespace TaskManagerApi.Migrations
 {
     [DbContext(typeof(TaskContext))]
-    [Migration("20241027063903_taskcontrolchange2")]
-    partial class taskcontrolchange2
+    [Migration("20241110063824_change")]
+    partial class change
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -144,6 +144,32 @@ namespace TaskManagerApi.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("TaskManagerApi.Models.UserLogin", b =>
+                {
+                    b.Property<Guid?>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("UsersLogin");
+                });
+
             modelBuilder.Entity("TaskManagerApi.Models.Address", b =>
                 {
                     b.HasOne("TaskManagerApi.Models.User", "User")
@@ -181,8 +207,7 @@ namespace TaskManagerApi.Migrations
 
             modelBuilder.Entity("TaskManagerApi.Models.User", b =>
                 {
-                    b.Navigation("Address")
-                        .IsRequired();
+                    b.Navigation("Address");
 
                     b.Navigation("Tasks");
                 });
