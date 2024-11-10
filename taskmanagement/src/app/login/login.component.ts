@@ -9,15 +9,15 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class LoginComponent {
 
 
-  
-onsubmit() {
-throw new Error('Method not implemented.');
-}
-loginform:FormGroup;
 
-constructor(private fb:FormBuilder ){
-this.loginform= fb.group({
+  onsubmit() {
+    throw new Error('Method not implemented.');
+  }
+  loginform: FormGroup;
 
-})
-}
+  constructor(private fb: FormBuilder) {
+    this.loginform = fb.group({
+      
+    })
+  }
 }

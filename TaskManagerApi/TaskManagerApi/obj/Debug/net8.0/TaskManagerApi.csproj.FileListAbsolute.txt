@@ -1038,3 +1038,4 @@ X:\UT01210\authenctication\full-stack-project-todo-list\TaskManagerApi\TaskManag
 X:\UT01210\authenctication\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\TaskManagerApi.pdb
 X:\UT01210\authenctication\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\TaskManagerApi.genruntimeconfig.cache
 X:\UT01210\authenctication\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\obj\Debug\net8.0\ref\TaskManagerApi.dll
+X:\UT01210\authenctication\full-stack-project-todo-list\TaskManagerApi\TaskManagerApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
